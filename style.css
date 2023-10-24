@@ -1,0 +1,57 @@
+
+
+@font-face {
+  font-family: 'cooper'; /* This is an arbitrary name -- whatever works for you */
+  src: url('https://cdn.glitch.global/a2356aac-4b25-4380-b4c7-356782b63063/Cooper%20Black%20Regular.ttf?v=1698114756634');}
+
+body {
+  font-family: cooper;
+  background-image: url('https://cdn.glitch.global/a2356aac-4b25-4380-b4c7-356782b63063/IMG_1366.webp?v=1698117939709');
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+   position: fixed;
+  top: 0;
+  width: 100%;
+position: sticky;
+  top: 0;
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111111;
+}
+
+li:last-child {
+  border-right: none;
+}
+.active {
+  background-color: #04AA6D;
+}
+.abouttitle {
+  text-align: center;
+}
+.hometitle {
+  text-align: center;
+}
+
