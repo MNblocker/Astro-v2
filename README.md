@@ -1,2 +1,3 @@
 # Astro-v2
-astro, remastered
+astro rewritten completely .
+new css new games new workflow
